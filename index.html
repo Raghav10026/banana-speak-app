@@ -4,13 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>banana speak</title>
+    <title>Minion Talks</title>
+    <link href="style.css" rel="stylesheet" />
 </head>
 
-<body>
-    <h1>Talking in banana app</h1>
+<header class="header">
+    <h1><b>Minion Talking Application</b></h1>
+</header>
+
+<body class="container">
+    <div class="div1">
+        <textarea id="txtinput" placeholder="Write a message you want to convert to banana language"></textarea>
+
+        <button id="btn-translate" class="btn">Banana Translate</button>
+
+        <<textarea id="text-output" placeholder="Message"></textarea>
+    </div>
+    </section>
+    <footer>
+        <div class="container">
+            <h3>About</h3>
+            <p>
+                Fun Translator to convert your text from english to minion language. This app is built with fun translation's minion-speak API
+            </p>
+            <p class="dev">Made by <a class="link" href="https://raghavnagpal.netlify.app/">Raghav</a></p>
+        </div>
+    </footer>
+
     <script src="app.js" type="text/javascript"></script>
-    <button id="click">Translate</button>
 </body>
 
 </html>
