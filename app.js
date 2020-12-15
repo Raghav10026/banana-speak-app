@@ -12,7 +12,7 @@ function getTranslationURL(input) {
 
 function errorHandler(error) {
     console.log("error occurred", error);
-    alert("something went wrong with the server")
+    alert("Oh Snap 😬! Its not you its us!")
 }
 
 function clickHandler() {
